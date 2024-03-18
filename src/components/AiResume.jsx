@@ -21,7 +21,7 @@ const AiResume = () => {
 
                 {/* Image */}
                 <div data-aos="fade-down" data-aos-duration="1500" className="flex justify-center items-center w-5/5  px-8">
-                    <img src="/resume.png" width={800} alt="Hero Image" className=" rounded-lg" />
+                    <img src="./resume.png" width={800} alt="Resume Image" className=" rounded-lg" />
                 </div>
             </div>
         </>
