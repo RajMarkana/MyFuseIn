@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
 const logos = [
-  '/company (1).png',
-  '/company (2).png',
-  '/company (3).png',
-  '/company (4).png',
-  '/company (5).png',
-  '/company (6).png',
-  '/company (7).png',
+  './company (1).png',
+  './company (2).png',
+  './company (3).png',
+  './company (4).png',
+  './company (5).png',
+  './company (6).png',
+  './company (7).png',
  
 
 ];

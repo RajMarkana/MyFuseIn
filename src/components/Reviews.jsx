@@ -4,7 +4,7 @@ import { FaStar } from "react-icons/fa";
 const reviews = [
     {
         id: 1,
-        image: "/ru (1).png",
+        image: "./ru (1).png",
         name: "John Doe",
         position: "Designer",
         rating:3,
@@ -12,7 +12,7 @@ const reviews = [
     },
     {
         id: 2,
-        image: "/ru (2).png",
+        image: "./ru (2).png",
         name: "Jane Doe",
         position: "Designer",
         rating:4,
@@ -20,7 +20,7 @@ const reviews = [
     },
     {
         id: 3,
-        image: "/ru (3).png",
+        image: "./ru (3).png",
         name: "Alice Smith",
         position: "Designer",
         rating:5,
@@ -28,7 +28,7 @@ const reviews = [
     },
     {
         id: 4,
-        image: "/ru (4).png",
+        image: "./ru (4).png",
         name: "Bob Johnson",
         position: "Designer",
         rating:3,
@@ -36,7 +36,7 @@ const reviews = [
     },
     {
         id: 5,
-        image: "/ru (6).jpg",
+        image: "./ru (6).jpg",
         name: "Emily Wilson",
         position: "Designer",
         rating:4,

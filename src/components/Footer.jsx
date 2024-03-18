@@ -8,7 +8,7 @@ const Footer = () => {
             <div className=" container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
 
                 <div className="md:w-1/2 lg:w-1/2 sm:w-full mb-4 md:mb-0">
-                    <img src="/MyFuse.In (3) Footer.png" alt="Logo"  width={200} />
+                    <img src="./MyFuse.In (3) Footer.png" alt="Logo"  width={200} />
                 
                     <p className="mt-3 ">Unlock endless career possibilities with Myfuse
                         – the platform <br/> that bridges gap between

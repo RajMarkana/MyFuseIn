@@ -22,7 +22,7 @@ const Hero = () => {
             {/* Image */}
             <div data-aos="zoom-in" data-aos-duration="1000"  className="flex justify-center items-center w-5/5  px-8">
 
-                <img src="/Frame 2.png" width={800} alt="Hero Image" className=" rounded-lg" />
+                <img src="./Frame 2.png" width={800} alt="Hero Image" className=" rounded-lg" />
 
             </div>
         </div>

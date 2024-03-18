@@ -7,7 +7,7 @@ import { IoTime } from "react-icons/io5";
 const jobs = [
     {
         id: 1,
-        image: "/job (2).png",
+        image: "./job (2).png",
         position: "Ui/Ux Designer",
         name: "AMDOCS",
         location: "Bengaluru",
@@ -18,7 +18,7 @@ const jobs = [
     },
     {
         id: 2,
-        image: "/job (1).png",
+        image: "./job (1).png",
         position: "Full Stack",
         name: "AIRBUS",
         location: "Bengaluru",
@@ -29,7 +29,7 @@ const jobs = [
     },
     {
         id: 3,
-        image: "/company (7).png",
+        image: "./company (7).png",
         position: "MERN Stack",
         name: "IBM",
         location: "Bengaluru",

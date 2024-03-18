@@ -13,7 +13,7 @@ const AiResume = () => {
                             with ease.
                         </p>
                         <div className="col-span-1 px-4 py-2 rounded-full shadow bg-gradient-to-r from-primary to-primary-second text-white mb-10 w-fit space-x-4">
-                            <button className='flex justify-center items-center'><img src="/aiIcon2.png" className='mr-2' width={20} alt="" /><p>Create Now</p></button>
+                            <button className='flex justify-center items-center'><img src="./aiIcon2.png" className='mr-2' width={20} alt="" /><p>Create Now</p></button>
                         </div>
                         {/* Add any additional content here */}
                     </div>

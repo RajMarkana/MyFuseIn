@@ -16,7 +16,7 @@ const Challenge = () => {
                     <div  className="bg-white shadow-2xl  rounded-2xl overflow-hidden flex flex-col  md:flex-row">
                         {/* Left side (image) */}
                         <div className="">
-                            <img src="/hackathon (2).jpg" alt="Web Design Challenge" className='h-full md:w-96 sm:w-full' width={400} />
+                            <img src="./hackathon (2).jpg" alt="Web Design Challenge" className='h-full md:w-96 sm:w-full' width={400} />
                         </div>
 
                         {/* Right side (details) */}

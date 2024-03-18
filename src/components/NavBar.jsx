@@ -54,7 +54,7 @@ const NavBar = () => {
       <div className="hidden md:grid md:grid-cols-3 md:gap-4 items-center">
    
         <div className="col-span-1">
-          <img src="/MyFuse.In (1) 2.png" alt="Logo" width={200} />
+          <img src="./MyFuse.In (1) 2.png" alt="Logo" width={200} />
         </div>
 
 
@@ -83,13 +83,13 @@ const NavBar = () => {
 
         <div className="col-span-1 justify-self-end flex space-x-4">
           <button className="px-4 py-2 rounded-full shadow bg-gradient-to-r from-primary to-primary-second text-white">Sign In</button>
-          <img src="/aiIcon.png" alt="Small Image" className="h-8" />
+          <img src="./aiIcon.png" alt="Small Image" className="h-8" />
         </div>
       </div>
 
       <div className="md:hidden flex justify-between items-center">
  
-        <img src="/MyFuse.In (1) 2.png" alt="Logo" className="h-8" />
+        <img src="./MyFuse.In (1) 2.png" alt="Logo" className="h-8" />
 
 
         <button onClick={toggleMenu} className="focus:outline-none">
@@ -130,7 +130,7 @@ const NavBar = () => {
         </ul>
         <div className="col-span-1 justify-self-end flex space-x-4">
           <button className="px-4 py-2 rounded-full shadow bg-gradient-to-r from-primary to-primary-second text-white">Sign In</button>
-          <img src="/aiIcon.png" alt="Small Image" className="h-8" />
+          <img src="./aiIcon.png" alt="Small Image" className="h-8" />
         </div>
       </div>
     </nav>

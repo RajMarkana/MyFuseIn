@@ -5,7 +5,7 @@ import {  FaAngleRight } from "react-icons/fa6";
 const blogs = [
     {
         id: 1,
-        image: "/blog (2).png",
+        image: "./blog (2).png",
         category: 'Technology and IT',
         title: "Unlocking Your Professional Future:",
         date: '17-03-2024',
@@ -13,7 +13,7 @@ const blogs = [
     },
     {
         id: 2,
-        image: "/blog (1).png",
+        image: "./blog (1).png",
         category: 'Technology and IT',
         title: "Zepto E-Com.    ",
         date: '13-02-2024',
@@ -21,7 +21,7 @@ const blogs = [
     },
     {
         id: 3,
-        image: "/blog (3).png",
+        image: "./blog (3).png",
         category: 'Finance',
         title: "Stock Market Analysis",
         date: '20-01-2024',
