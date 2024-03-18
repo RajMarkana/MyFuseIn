@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html {
+    font-family: 'poppins';
+    
+  }
+}
+::-webkit-scrollbar {
+  
+  width: 1pc;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to left top, #5d0dfe, #8C52FF38);
+  border-radius: 10pc;
+}
