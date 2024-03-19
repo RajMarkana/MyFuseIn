@@ -11,6 +11,8 @@ import Numbers from '../components/Numbers'
 import Reviews from '../components/Reviews'
 import Blogs from '../components/Blogs'
 import Footer from '../components/Footer'
+import AppDownload from '../components/AppDownload'
+import ApplyProcess from '../components/ApplyProcess'
 
 
 const HomePage = () => {
@@ -25,8 +27,10 @@ const HomePage = () => {
             <Categories/>
             <AiResume/> 
             <Numbers/>
+            <ApplyProcess/>
             <Reviews/>
             <Blogs/>
+            <AppDownload/>
             <Footer/>
         </>
     )

@@ -59,8 +59,8 @@ const NavBar = () => {
 
 
         <div  className="col-span-1 justify-self-center">
-          <ul className="flex text-lg space-x-4">
-            <li><a href="#" className='font-bold  px-3 text-primary'>Home</a></li>
+          <ul className="flex text-lg ">
+            <li className='px-3'><a href="#" className='font-bold   text-primary'>Home</a></li>
             <li className="relative px-3 " onMouseEnter={() => setIsJobMenuOpen(true)} onMouseLeave={() => setIsJobMenuOpen(false)}>
               <a href="#" className='hover:text-primary' >Job</a>
               {isJobMenuOpen && (
@@ -75,15 +75,15 @@ const NavBar = () => {
                 </ul>
               )}
             </li>
-            <li className='px-3'><a href="#" className='hover:text-primary'>Blogs</a></li>
-            <li  className='px-3'><a href="#"  className='hover:text-primary'>About Us</a></li>
+            <li className='px-3'><a href="#" className=' hover:text-primary'>Blogs</a></li>
+            <li  className='px-3'><a href="#"  className='hover:text-primary'>About</a></li>
             <li  className='px-3'> <a href="#"  className='hover:text-primary'>Contact</a></li>
           </ul>
         </div>
 
         <div className="col-span-1 justify-self-end flex space-x-4">
           <button className="px-4 py-2 rounded-full shadow bg-gradient-to-r from-primary to-primary-second text-white">Sign In</button>
-          <img src="./aiIcon.png" alt="Small Image" className="h-8" />
+          <img src="./aiIcon.png" style={{animationDuration: '3s',animationIterationCount: 'infinite' ,animationTimingFunction: 'ease-in-out' }} alt="Small Image"  title="Ai Resume" className="h-8 cursor-pointer animate-pulse-rotate" />
         </div>
       </div>
 
@@ -130,7 +130,7 @@ const NavBar = () => {
         </ul>
         <div className="col-span-1 justify-self-end flex space-x-4">
           <button className="px-4 py-2 rounded-full shadow bg-gradient-to-r from-primary to-primary-second text-white">Sign In</button>
-          <img src="./aiIcon.png" alt="Small Image" className="h-8" />
+          <img src="./aiIcon.png" style={{animationDuration: '3s',animationIterationCount: 'infinite' ,animationTimingFunction: 'ease-in-out' }} alt="Small Image"  title="Ai Resume" className="h-8 cursor-pointer animate-pulse-rotate" />
         </div>
       </div>
     </nav>

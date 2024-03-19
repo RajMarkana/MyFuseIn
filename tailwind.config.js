@@ -16,7 +16,7 @@ export default {
         'primary': '#8C52FF',
         'primary-second': '#562FC5',
         'primary-light': '#faf6ff',
-        'secondary': '#292D32'
+        'secondary': '#4b5563'
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',

@@ -32,14 +32,14 @@ const Companies = () => {
 
   return (
     <div data-aos="fade-down" data-aos-duration="1000" className="h-full  overflow-hidden">
-      <div className="flex justify-around items-center transition-transform  ease-in-out transform">
+      <div className="flex sm:justify-around justify-center items-center transition-transform  ease-in-out transform">
         {visibleLogos.map((logo, index) => (
-          <div className='mx-10'>
+          <div className='sm:mx-10 mx-0'>
           <img
             key={index}
             src={logo}
             alt="Company Logo"
-            className="max-w-xs  w-40 object-fill  filter grayscale max-h-20 m-10"
+            className="max-w-xs sm:w-40 bg-primary-second w-[150px] object-fill  filter grayscale max-h-20 m-10"
           />
           </div>
         ))}

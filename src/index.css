@@ -23,3 +23,34 @@
   background-image: linear-gradient(to left top, #5d0dfe, #8C52FF38);
   border-radius: 10pc;
 }
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-pulse-rotate {
+  animation-name: pulse, rotate;
+  animation-duration: 2s, 3s;
+  animation-timing-function: ease-in-out, linear; 
+  animation-iteration-count: infinite;
+}

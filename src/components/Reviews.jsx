@@ -75,26 +75,26 @@ const Reviews = () => {
     }, [currentIndex, reviews]);
 
     return (
-        <div className='h-auto mt-10 p-16'>
+        <div className='h-auto mt-10 p-10'>
             <div data-aos="fade-down" data-aos-duration="1000" className='text-center'>
                 <h1 className='text-primary font-bold text-3xl'>Voices of Success: MyFuse Testimonials</h1>
                 <p className='text-secondary mt-4'>Dive into firsthand experiences from our satisfied customers. Explore how MyFuse has transformed <br /> their
                     professional journey through their inspiring testimonials.</p>
             </div>
 
-            <div data-aos="fade-down" data-aos-duration="2000" className="relative">
-                <div className="flex justify-center overflow-x-auto w-full">
+            <div data-aos="fade-down" data-aos-duration="2000" className="w-full  relative">
+                <div className="flex justify-center m-4 mt-8 mb-10 overflow-x-auto w-full">
                     {visibleReviews.map((review) => (
                         <div key={review.id} className="w-full">
-                            <div className="md:p-14 lg:p-14 sm:p-7">
-                                <div className="bg-primary-light transition-all p-8 rounded-3xl">
+                            <div className="sm:p-2">
+                                <div className="bg-primary-light transition-all p-8  rounded-3xl">
                                     <a className="inline-flex flex-wrap items-center">
                                         <img
                                             alt="testimonial"
                                             src={review.image}
                                             className=" w-20 h-20 rounded-full flex-shrink-0 object-cover object-center"
                                         />
-                                        <span className="flex-grow flex flex-col lg:pl-4 md:pl-4  sm:pl-0">
+                                        <span className="flex-grow flex flex-col  pl-4">
                                             <span className="title-font font-semibold text-primary text-xl ">{review.name}</span>
                                             <span className="text-gray-500 text-sm">{review.position}</span>
                                             <span className='flex mt-2'>
@@ -104,9 +104,8 @@ const Reviews = () => {
                                             </span>
                                         </span>
                                     </a>
-
-                                   
-                                    <p className="mt-4 leading-relaxed mb-6">
+                                                  
+                                    <p className="mt-4 text-secondary leading-relaxed mb-6">
                                         {review.review}
                                     </p>
 

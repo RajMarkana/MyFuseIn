@@ -52,7 +52,7 @@ const Blogs = () => {
                                         <img className="lg:h-32 w-96 md:h-24 object-fill" src={blog.image} alt="blog" />
                                         <div className="p-6">
                                             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">{blog.category}</h2>
-                                            <h1 className="title-font text-2xl text-primary w-72 font-semibold mb-3"> <a href="#"> {blog.title}</a> </h1>
+                                            <h1 className="title-font sm:text-2xl text-xl text-primary w-72 font-semibold  mb-3"> <a href="#"> {blog.title}</a> </h1>
 
                                             <div>
 
@@ -71,7 +71,7 @@ const Blogs = () => {
 
                         </div>
                     </div>
-                    <p><a href="#" className='text-end flex sm:justify-center lg:justify-end md:justify-end items-center px-40 text-secondary text-lg hover:text-primary'>Explore More <FaAngleRight /></a></p>
+                    <p data-aos="fade-down" data-aos-duration="1000"><a href="#" className=' flex sm:justify-end justify-center   items-center sm:px-40 px-0 text-secondary text-lg hover:text-primary'>Explore More <FaAngleRight /></a></p>
                 </section>
 
             </div>

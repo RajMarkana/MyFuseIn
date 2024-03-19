@@ -101,7 +101,7 @@ const Jobs = () => {
 
                         </div>
                     </div>
-                    <p data-aos="fade-down" data-aos-duration="1000"><a href="#" className='text-end flex sm:justify-center lg:justify-end md:justify-end items-center px-40 text-secondary text-lg hover:text-primary'>Explore More <FaAngleRight /></a></p>
+                    <p data-aos="fade-down" data-aos-duration="1000"><a href="#" className=' flex sm:justify-end justify-center   items-center sm:px-40 px-0 text-secondary text-lg hover:text-primary'>Explore More <FaAngleRight /></a></p>
                 </section>
 
             </div>

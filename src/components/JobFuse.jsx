@@ -8,7 +8,7 @@ import { BsUiChecksGrid } from "react-icons/bs";
 const JobFuse = () => {
     return (
         <>
-            <div className=' h-auto mt-14 mb-14 p-4'>
+            <div className='  mt-14 mb-14 p-4'>
                 <div data-aos="fade-down" data-aos-duration="1000" className='text-center'>
                     <h1 className='text-primary font-bold text-3xl'>Job Fuse</h1>
                     <p className='text-secondary mt-3'>Join Job Fuse by MyFuse to bridge the gap between students and job opportunities in India. </p>
@@ -18,8 +18,8 @@ const JobFuse = () => {
                     <div className='mt-14 flex flex-col lg:flex-row sm:flex-col box-border md:flex-col gap-14 '>
                         <div data-aos="fade-down" data-aos-duration="1500" className="bg-white transition-all rounded-3xl overflow-hidden flex flex-col  sm:flex-row md:flex-row hover:border hover:shadow-CBlack   border-primary">
 
-                            <div className="w-36  flex justify-center items-center">
-                                <FaSuitcase className='text-7xl text-primary' />
+                            <div className="w-36 p-4 sm:p-0  flex justify-center items-center">
+                                <FaSuitcase className='sm:text-7xl text-5xl text-primary' />
                             </div>
 
 
@@ -32,7 +32,7 @@ const JobFuse = () => {
                         </div>
                         <div data-aos="fade-down" data-aos-duration="1500" className="bg-white transition-all rounded-3xl overflow-hidden flex flex-col  sm:flex-row md:flex-row hover:border hover:shadow-CBlack   border-primary">
 
-                            <div className="w-36  flex justify-center items-center">
+                            <div className="w-36  p-4 sm:p-0  flex justify-center items-center">
                                 <IoChatbubbles className='text-7xl text-primary' />
                             </div>
 
@@ -47,7 +47,7 @@ const JobFuse = () => {
                     <div data-aos="fade-down" data-aos-duration="3000" className='mt-14 flex flex-col lg:flex-row sm:flex-col box-border md:flex-col gap-14 '>
                         <div className="bg-white transition-all rounded-3xl overflow-hidden flex flex-col  sm:flex-row md:flex-row hover:border hover:shadow-CBlack   border-primary">
 
-                            <div className="w-36  flex justify-center items-center">
+                            <div className="w-36  p-4 sm:p-0  flex justify-center items-center">
                                 <PiPathBold className='text-7xl text-primary' />
                             </div>
 
@@ -61,7 +61,7 @@ const JobFuse = () => {
                         </div>
                         <div data-aos="fade-down" data-aos-duration="3000" className="bg-white transition-all rounded-3xl overflow-hidden flex flex-col  sm:flex-row md:flex-row hover:border hover:shadow-CBlack   border-primary">
 
-                            <div className="w-36  flex justify-center items-center">
+                            <div className="w-36  p-4 sm:p-0  flex justify-center items-center">
                                 <BsUiChecksGrid  className='text-7xl text-primary' />
                             </div>
 
