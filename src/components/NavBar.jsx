@@ -62,7 +62,7 @@ const NavBar = () => {
           <ul className="flex text-lg ">
             <li className='px-3'><a href="#" className='font-bold   text-primary'>Home</a></li>
             <li className="relative px-3 " onMouseEnter={() => setIsJobMenuOpen(true)} onMouseLeave={() => setIsJobMenuOpen(false)}>
-              <a href="#" className='hover:text-primary' >Job</a>
+              <a href="#" className='hover:text-primary' >Jobs</a>
               {isJobMenuOpen && (
                 <ul className="absolute top-4 -left-8 mt-2 bg-primary-light w-48 rounded-lg shadow-lg">
                   <li>
@@ -118,7 +118,7 @@ const NavBar = () => {
           <li><a href="#" className='font-bold text-primary'>Home</a></li>
           <li>
             <a href="#" onClick={toggleJobMenu} className="flex  hover:text-primary justify-between items-center">
-              Job
+              Jobs
               <svg className={`h-4 w-4 ${isJobMenuOpen ? 'transform rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
