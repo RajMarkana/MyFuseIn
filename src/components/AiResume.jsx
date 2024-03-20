@@ -5,7 +5,7 @@ const AiResume = () => {
         <>
             <div className="flex flex-col md:flex-row items-center w-6/6 justify-between md:py-0 sm:pt-16">
              
-                <div data-aos="zoom-out" data-aos-duration="1500" className="px-8 flex flex-col justify-center  items-center">
+                <div data-aos="fade-down" data-aos-duration="1500" className="px-8 flex flex-col justify-center  items-center">
                     <div className=' w-fit'>
                         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-8"><span className='px-1 bg-primary text-white leading-relaxed mr-2'>Revolutionize </span> Your Job Search <br />with AI-Enhanced Resumes!</h1>
                         <p className="text-lg   text-secondary mb-8">

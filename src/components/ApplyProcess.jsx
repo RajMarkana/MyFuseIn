@@ -8,7 +8,7 @@ const AppDownload = () => {
             <section >
                 <div class="container px-5 text-secondary  justify-center items-center mx-auto flex flex-wrap">
                     <div class="flex flex-wrap justify-center items-center w-full">
-                    <img src="./ApplyGIF.gif" width={700} data-aos="zoom-out" data-aos-duration="1500" alt="Apply Image" className=" rounded-lg" />
+                    <img src="./ApplyGIF.gif" width={700} data-aos="fade-down" data-aos-duration="1500" alt="Apply Image" className=" rounded-lg" />
                         <div class=" lg:w-2/5 flex flex-col justify-center mt-11  items-center md:w-1/2 md:pl-10 md:py-6">
                             <div data-aos="fade-down" data-aos-duration="1500" class="flex  relative pb-12">
                                 <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
@@ -44,7 +44,7 @@ const AppDownload = () => {
                                 <div class="flex-grow pl-4">
                                     <h2 class="font-medium title-font text-sm mb-1 tracking-wider">STEP 3</h2>
                                     <h2 class="font-medium title-font text-md text-primary mb-1 tracking-wider">Get your job</h2>
-                                    <p class="leading-relaxed">CUnlock your career potential with us! Browse through our job listings and take the first step towards securing your dream job. Your future career is just a few clicks away..</p>
+                                    <p class="leading-relaxed">Unlock your career potential with us! Browse through our job listings and take the first step towards securing your dream job. Your future career is just a few clicks away..</p>
                                 </div>
                             </div>
                             

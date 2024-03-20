@@ -83,10 +83,10 @@ const Reviews = () => {
             </div>
 
             <div data-aos="fade-down" data-aos-duration="2000" className="w-full  relative">
-                <div className="flex justify-center m-4 mt-8 mb-10 overflow-x-auto w-full">
+                <div className="flex justify-center  mt-8 mb-10 overflow-x-auto w-full">
                     {visibleReviews.map((review) => (
                         <div key={review.id} className="w-full">
-                            <div className="sm:p-2">
+                            <div className="sm:p-2 p-0">
                                 <div className="bg-primary-light transition-all p-8  rounded-3xl">
                                     <a className="inline-flex flex-wrap items-center">
                                         <img

@@ -4,8 +4,8 @@ import { FaGooglePlay ,FaApple } from "react-icons/fa";
 const AppDownload = () => {
     return (
         <>
-            <section  class="mb-20  body-font">
-                <div class="container bg-primary-light rounded-3xl  mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+            <section  class="sm:mb-20 mb-0  body-font">
+                <div class="container bg-primary-light sm:rounded-3xl rounded-none  mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
                     <div data-aos="fade-up" data-aos-duration="1500"   class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
                         <img class="object-cover object-center rounded" alt="hero" src="./app.png" />
                     </div>
