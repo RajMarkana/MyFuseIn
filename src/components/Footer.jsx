@@ -19,11 +19,11 @@ const Footer = () => {
                             – the platform  that bridges gap between
                             Students and Job opportunities in India..y</p>
                         <br />
-                        <p className='flex items-center gap-2'><IoIosCall /> +91 7975364977</p>
-                        <p className='flex items-center gap-2'><MdEmail />contact@myfuse.in</p>
+                        <p className='flex items-center gap-2'><IoIosCall /> <a href="tel:+917975364977"> +91 7975364977</a></p>
+                        <p className='flex items-center gap-2'><MdEmail /> <a href="mailto:contact@myfuse.in"> contact@myfuse.in</a></p>
                         <br />
                         <p className='flex items-center gap-2' >
-                            <FaLocationDot /> MyFuse.in Residency Rd, Shanthala Nagar Ashok Nagar, <br />Bengaluru Karnataka 560025
+                            <FaLocationDot /> <a href="https://www.google.com/maps/place/MyFuse.in/@12.9721788,77.6061888,15z/data=!4m6!3m5!1s0x3bae15f3579da689:0xf972e738f7954d5d!8m2!3d12.9721788!4d77.6061888!16s%2Fg%2F11jmyyj87d?entry=ttu" target='_blank'>MyFuse.in Residency Rd, Shanthala Nagar Ashok Nagar, <br />Bengaluru Karnataka 560025</a>
                         </p>
                     </div>
 
@@ -70,7 +70,7 @@ const Footer = () => {
                 </div>
                 <br /><br />
                 <div className="text-center mt-4">
-                    <p className="text-sm">&copy; 2024 Your Company. All rights reserved.</p>
+                    <p className="text-sm">Copyright &copy; 2024 MyFuse.In. All Rights Reserved<br/>Design By Raj Markana</p>
                 </div>
 
             </footer>

@@ -39,7 +39,7 @@ const Companies = () => {
             key={index}
             src={logo}
             alt="Company Logo"
-            className="max-w-xs sm:w-40 bg-primary-second w-[150px] object-fill  filter grayscale max-h-20 m-10"
+            className="max-w-xs sm:w-40 w-[150px] object-fill  filter grayscale max-h-20 m-10"
           />
           </div>
         ))}

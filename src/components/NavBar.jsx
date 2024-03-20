@@ -66,12 +66,20 @@ const NavBar = () => {
               {isJobMenuOpen && (
                 <ul className="absolute top-4 -left-8 mt-2 bg-primary-light w-48 rounded-lg shadow-lg">
                   <li>
-                    <a href="#" className="block px-4 py-2 hover:text-primary">Job 1</a>
+                    <a href="#" className="block px-4 py-2 hover:text-primary">IT & Technology</a>
                   </li>
                   <li>
-                    <a href="#" className="block px-4 py-2 hover:text-primary">Job 2</a>
+                    <a href="#" className="block px-4 py-2 hover:text-primary">Management</a>
                   </li>
-                
+                  <li>
+                    <a href="#" className="block px-4 py-2 hover:text-primary">Education</a>
+                  </li>
+                  <li>
+                    <a href="#" className="block px-4 py-2 hover:text-primary">Health Care</a>
+                  </li>
+                  <li>
+                    <a href="#" className="block px-4 py-2 hover:text-primary">Management</a>
+                  </li>
                 </ul>
               )}
             </li>
@@ -118,9 +126,21 @@ const NavBar = () => {
   
             {isJobMenuOpen && (
               <ul className="flex flex-col space-y-2">
-                <li><a href="#" className="block px-4 py-2 hover:text-primary">Job 1</a></li>
-                <li><a href="#" className="block px-4 py-2 hover:text-primary">Job 2</a></li>
-      
+                  <li>
+                    <a href="#" className="block px-4 py-2 hover:text-primary">IT & Technology</a>
+                  </li>
+                  <li>
+                    <a href="#" className="block px-4 py-2 hover:text-primary">Management</a>
+                  </li>
+                  <li>
+                    <a href="#" className="block px-4 py-2 hover:text-primary">Education</a>
+                  </li>
+                  <li>
+                    <a href="#" className="block px-4 py-2 hover:text-primary">Health Care</a>
+                  </li>
+                  <li>
+                    <a href="#" className="block px-4 py-2 hover:text-primary">Management</a>
+                  </li>
               </ul>
             )}
           </li>
