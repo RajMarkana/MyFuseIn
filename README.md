@@ -1,8 +1,14 @@
-# React + Vite
+# MyFuseIn
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Repository and Live Demo
 
-Currently, two official plugins are available:
+- **GitHub Repository**: [MyFuseIn GitHub](https://github.com/RajMarkana/MyFuseIn)
+- **Live Website Demo**: [MyFuseIn Live Demo](https://rajmarkana.github.io/MyFuseIn/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Description:
+MyFuseIn is a redesigned home page for a company, created as part of a hackathon. It focuses on providing an intuitive and engaging user experience for visitors.
+
+### Technology Used:
+- React.js
+- Tailwind CSS
+- AOS Library (for animations)
